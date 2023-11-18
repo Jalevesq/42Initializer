@@ -9,7 +9,7 @@ It's here to help new students begin their journey or to provide moral support a
 
 - [**Oh My Zsh Installation**](https://ohmyz.sh/)
   
-- **[Homebrew Without sudo Installation](https://www.scivision.dev/macos-homebrew-non-sudo/)**
+- **[Homebrew Without Sudo Installation](https://www.scivision.dev/macos-homebrew-non-sudo/)**
 
 - **CMake, GLFW, and Valgrind Installation (with brew)**
 
