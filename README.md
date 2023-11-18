@@ -4,17 +4,17 @@ Welcome to 42Initializer!
 This script automates the installation of crucial tools and programs used in the 42 common core.
 It's here to help new students begin their journey or to provide moral support after the deletion of your session.
 
-## Features
+## Installed Tools:
 
-- **Oh My Zsh Installation:** Because life is too short for a boring terminal.
+- [**Oh My Zsh**](https://ohmyz.sh/)
+  
+- **[Homebrew](https://www.scivision.dev/macos-homebrew-non-sudo/)**
 
-- **Homebrew Setup:** Bringing the magic of Homebrew to 42 School, where every byte matters.
+- **CMake, GLFW, and Valgrind (with brew)**
 
-- **CMake, GLFW, and Valgrind:** Installing the essentials with a brew, because who needs manual installations?
+- **VSCode Alias Addition:**
 
-- **VSCode Alias Addition:** Because coding without Visual Studio Code is like a day without sunshine.
-
-- **[CCleaner42 Installation](https://github.com/ombhd/Cleaner_42):** Ensuring cleanliness and order, just like your code. [Cleaner_42 Source](https://github.com/ombhd/Cleaner_42)
+- **[CCleaner42 Installation](https://github.com/ombhd/Cleaner_42):** Ensuring cleanliness and order in your code. [Cleaner_42 Source](https://github.com/ombhd/Cleaner_42)
 
 ## Getting Started
 
@@ -35,10 +35,17 @@ It's here to help new students begin their journey or to provide moral support a
     ```bash
     ./42Initializer.sh
     ```
+    If your present working directory ($PWD) is not $HOME, the program will prompt you with two menu options:
+
+    - **Home Directory:** Choose this option if you want to move to $HOME before downloading dependencies.
+    
+    - **Current Directory:** Choose this option if you want to stay in your directory to download. **Note: This may cause issues.**
+
+    <img src="https://github.com/Jalevesq/42Initializer/assets/103976653/3ebc4e4e-566f-425e-a80c-6c3563f22738" alt="42Initializer Menu" width="400"/>
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you find a way to magically create more space on 42 School computers or have other improvements, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you find a way to magically create more space on 42 School computers so we don't have to delete everything each month, or if you have other improvements, feel free to open an issue or submit a pull request.
 
 ## Disclaimer
 
