@@ -43,6 +43,10 @@ It's here to help new students begin their journey or to provide moral support a
 
     <img src="https://github.com/Jalevesq/42Initializer/assets/103976653/3ebc4e4e-566f-425e-a80c-6c3563f22738" alt="42Initializer Menu" width="400"/>
 
+4. Install what you need.
+    For each program, you will be prompted to choose whether you want to download it or not.
+   <img width="400" alt="Screenshot 2023-11-18 at 4 09 12 PM" src="https://github.com/Jalevesq/42Initializer/assets/103976653/1b6114ec-f620-45a9-80a2-249771fade2f">
+
 ## Contribution Guidelines
 
 Contributions are welcome! If you find a way to magically create more space on 42 School computers so we don't have to delete everything each month, or if you have other improvements, feel free to open an issue or submit a pull request.
