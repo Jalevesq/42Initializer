@@ -22,7 +22,7 @@ It's here to help new students begin their journey or to provide moral support a
 1. Clone this repository to your 42 School computer.
 
     ```bash
-    git clone https://github.com/yourusername/42-school-toolkit.git
+    git clone https://github.com/Jalevesq/42Initializer
     ```
 
 2. Navigate to the toolkit directory.
