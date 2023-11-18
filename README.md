@@ -1,6 +1,8 @@
 # 42Initializer 🚀
 
-Welcome to the 42Initializer! This script automates the installation of essential tools and programs, because let's face it, finding space on those 42 computers is like finding a needle in a haystack.
+Welcome to 42Initializer!
+This script automates the installation of crucial tools and programs used in the 42 common core.
+It's here to help new students begin their journey or to provide moral support after the deletion of your session.
 
 ## Features
 
