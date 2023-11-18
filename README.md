@@ -15,7 +15,7 @@ It's here to help new students begin their journey or to provide moral support a
 
 - **Open VSCode Alias**
 
-- **[Cleaner42 Installation](https://github.com/ombhd/Cleaner_42):** Ensuring cleanliness and order in your code. [Cleaner_42 Source](https://github.com/ombhd/Cleaner_42)
+- **[Cleaner42 Installation](https://github.com/ombhd/Cleaner_42):** [Cleaner_42 Github](https://github.com/ombhd/Cleaner_42)
 
 ## Getting Started
 
