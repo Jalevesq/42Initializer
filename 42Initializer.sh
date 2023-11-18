@@ -25,6 +25,11 @@ RESET='\033[0m'
 #           Install Functions             #
 ###########################################
 
+function create_ssh_key() {
+  echo -e "${BOLD_CYAN}Creating SSH Key...${RESET}"
+  ssh-keygen -t rsa
+}
+
 # Function to install ohmyzsh
 function install_ohmyzsh() {
   echo -e "${BOLD_CYAN}Installing ohmyzsh...${RESET}"
@@ -69,7 +74,7 @@ function install_ccleaner42() {
 }
 
 # Function to add alias for opening VSCode to .zshrc
-function install_vscode_alias() {
+function add_vscode_alias() {
   echo -e "${BOLD_CYAN}Adding VSCode alias to .zshrc...${RESET}"
   echo -e "alias code=\"open -a 'Visual Studio Code'\"" >> $HOME/.zshrc
 }
@@ -145,7 +150,7 @@ function handle_empty_variable() {
 
 function ask_install() {
   while true; do
-    read -p "$(echo -e "${BOLD_CYAN}Do you want to install ${RESET}${BOLD_MAGENTA}[$1]${BOLD_CYAN}? (y/n): ${RESET}")" response
+    read -p "$(echo -e "${BOLD_CYAN}Do you want to ${RESET}${BOLD_MAGENTA}[$1]${BOLD_CYAN}? (y/n): ${RESET}")" response
     case $response in
       [Yy])
         return 0
@@ -186,16 +191,17 @@ function pwd_is_not_home() {
 function install_all() {
 
   functions_to_install=(
+    create_ssh_key
     install_ohmyzsh
     install_homebrew
     install_cmake
     install_glfw
     install_valgrind
-    install_vscode_alias
+    add_vscode_alias
     install_ccleaner42
   )
   for func in "${functions_to_install[@]}"; do
-    program_name=$(echo "$func" | cut -d'_' -f 2- | tr '_' ' ')
+    program_name=$(echo "$func" | tr '_' ' ')
     if ask_install "$program_name"; then
       $func
       echo -e ${BOLD_GREEN}"--- Finish Installing $program_name ---${RESET}"
