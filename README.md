@@ -9,7 +9,7 @@ It's here to help new students begin their journey or to provide moral support a
 
 - [**Oh My Zsh Installation**](https://ohmyz.sh/)
   
-- **[Homebrew Without Sudo Installation](https://www.scivision.dev/macos-homebrew-non-sudo/)**
+- **[Homebrew Without Sudo](https://www.scivision.dev/macos-homebrew-non-sudo/)**
 
 - **[CMake](https://formulae.brew.sh/formula/cmake), [GLFW](https://formulae.brew.sh/formula/glfw), and [Valgrind](https://github.com/LouisBrunner/valgrind-macos) Installation**
 
