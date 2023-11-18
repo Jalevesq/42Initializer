@@ -14,7 +14,7 @@ It's here to help new students begin their journey or to provide moral support a
 
 - **VSCode Alias Addition:** Because coding without Visual Studio Code is like a day without sunshine.
 
-- **[CCleaner42](https://github.com/ombhd/Cleaner_42):** Ensuring cleanliness and order, just like your code. [Cleaner_42 Source](https://github.com/ombhd/Cleaner_42)
+- **[CCleaner42 Installation](https://github.com/ombhd/Cleaner_42):** Ensuring cleanliness and order, just like your code. [Cleaner_42 Source](https://github.com/ombhd/Cleaner_42)
 
 ## Getting Started
 
