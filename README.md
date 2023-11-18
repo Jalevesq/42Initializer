@@ -15,7 +15,7 @@ It's here to help new students begin their journey or to provide moral support a
 
 - **Alias to Open Vscode (code .)**
 
-- **[Cleaner42 Installation](https://github.com/ombhd/Cleaner_42)**
+- **[Cleaner_42 Installation](https://github.com/ombhd/Cleaner_42)**
 
 ## Getting Started
 
