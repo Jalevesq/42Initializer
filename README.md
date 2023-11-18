@@ -5,6 +5,7 @@ This script automates the installation of crucial tools and programs used in the
 It's here to help new students begin their journey or to provide moral support after the deletion of your session.
 
 ## Installed Tools:
+- [**Create SSH Key**](https://download.asperasoft.com/download/docs/sync2/3.5.1/admin_osx/webhelp/dita/creating_public_key_cmd.html)
 
 - [**Oh My Zsh**](https://ohmyz.sh/)
   
