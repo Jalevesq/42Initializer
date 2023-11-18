@@ -4,16 +4,16 @@ Welcome to 42Initializer!
 This script automates the installation of crucial tools and programs used in the 42 common core.
 It's here to help new students begin their journey or to provide moral support after the deletion of your session.
 
-## Installed Tools:
+## Features:
 - [**Create SSH Key**](https://download.asperasoft.com/download/docs/sync2/3.5.1/admin_osx/webhelp/dita/creating_public_key_cmd.html)
 
-- [**Oh My Zsh**](https://ohmyz.sh/)
+- [**Oh My Zsh Installation**](https://ohmyz.sh/)
   
-- **[Homebrew](https://www.scivision.dev/macos-homebrew-non-sudo/)**
+- **[Homebrew Without sudo Installation](https://www.scivision.dev/macos-homebrew-non-sudo/)**
 
-- **CMake, GLFW, and Valgrind (with brew)**
+- **CMake, GLFW, and Valgrind Installation (with brew)**
 
-- **VSCode Alias Addition:**
+- **Open VSCode Alias**
 
 - **[CCleaner42 Installation](https://github.com/ombhd/Cleaner_42):** Ensuring cleanliness and order in your code. [Cleaner_42 Source](https://github.com/ombhd/Cleaner_42)
 
