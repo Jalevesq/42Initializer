@@ -11,11 +11,11 @@ It's here to help new students begin their journey or to provide moral support a
   
 - **[Homebrew Without Sudo](https://www.scivision.dev/macos-homebrew-non-sudo/)**
 
-- **[CMake](https://formulae.brew.sh/formula/cmake), [GLFW](https://formulae.brew.sh/formula/glfw), and [Valgrind](https://github.com/LouisBrunner/valgrind-macos) Installation**
+- **[CMake](https://formulae.brew.sh/formula/cmake), [GLFW](https://formulae.brew.sh/formula/glfw), and [Valgrind](https://github.com/LouisBrunner/valgrind-macos)**
 
 - **Alias to Open Vscode (code .)**
 
-- **[Cleaner_42 Installation](https://github.com/ombhd/Cleaner_42)**
+- **[Cleaner_42](https://github.com/ombhd/Cleaner_42)**
 
 ## Getting Started
 
