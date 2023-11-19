@@ -7,7 +7,7 @@ It's here to help new students begin their journey or to provide moral support a
 ## Features:
 - [**Create SSH Key**](https://download.asperasoft.com/download/docs/sync2/3.5.1/admin_osx/webhelp/dita/creating_public_key_cmd.html)
 
-- [**Oh My Zsh Installation**](https://ohmyz.sh/)
+- [**Oh My Zsh**](https://ohmyz.sh/)
   
 - **[Homebrew Without Sudo](https://www.scivision.dev/macos-homebrew-non-sudo/)**
 
