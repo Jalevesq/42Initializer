@@ -40,7 +40,23 @@ function install_ohmyzsh() {
 function install_homebrew() {
   echo -e "${BOLD_CYAN}Installing Homebrew...${RESET}"
   mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+  if [ $? -ne 0 ]; then
+    return
+  fi
   echo -e "export PATH=\$HOME/homebrew/bin:\$PATH" >> $HOME/.zshrc
+  echo -e "${BOLD_YELLOW}Installation complete!${RESET}"
+
+  echo -e "Do you want to restart the terminal to use the 'brew' command right now?"
+  echo -e "${BOLD_RED}Note: If you don't restart the terminal, you won't be able to install Homebrew dependencies until you do.${RESET}"
+  read -p "Restart the terminal? (y/n): " restart_choice
+
+  if [ "$restart_choice" == "y" ]; then
+    echo -e "You will need to re-execute the script."
+    echo -e "Reloading..."
+    exec zsh
+  else
+    echo -e "${BOLD_RED}If you change your mind, restart the terminal and run the script again.${RESET}"
+  fi
 }
 
 # Function to install cmake with brew
@@ -230,7 +246,6 @@ function main() {
   ask_directory
   printDirectory $?
   install_all
-  exec zsh
   cd $HOME
 }
 
