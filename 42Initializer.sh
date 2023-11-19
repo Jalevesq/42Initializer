@@ -220,7 +220,7 @@ function install_all() {
     program_name=$(echo "$func" | tr '_' ' ')
     if ask_install "$program_name"; then
       $func
-      echo -e ${BOLD_GREEN}"--- Finished Installing $program_name ---${RESET}"
+      echo -e ${BOLD_GREEN}"--- Finished: ${BOLD_MAGENTA}[$program_name]${BOLD_GREEN} ---${RESET}"
     fi
   done
   printGithubMessage
