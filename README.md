@@ -47,7 +47,7 @@ It's here to help new students begin their journey or to provide moral support a
 4. Install what you need.
     For each program, you will be prompted to choose whether you want to download it or not.
 
-   <img width="400" alt="Screenshot 2023-11-18 at 4 09 12 PM" src="https://github.com/Jalevesq/42Initializer/assets/103976653/1b6114ec-f620-45a9-80a2-249771fade2f">
+    <img width="400" alt="Screenshot 2023-11-18 at 7 04 39 PM" src="https://github.com/Jalevesq/42Initializer/assets/103976653/bd82c968-6a23-497e-885d-344ed5c16c67">
 
 ## Contribution Guidelines
 
