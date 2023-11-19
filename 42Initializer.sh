@@ -123,7 +123,7 @@ function printMenu() {
 
 function printEndMessage {
   echo -e "${BOLD_MAGENTA} ----------------------------------- "
-  echo -e "|    FINISH INITIALIZING SESSION    |"
+  echo -e "|    FINISHED INITIALIZING SESSION    |"
   echo -e " ----------------------------------- ${RESET}"
 }
 
@@ -220,7 +220,7 @@ function install_all() {
     program_name=$(echo "$func" | tr '_' ' ')
     if ask_install "$program_name"; then
       $func
-      echo -e ${BOLD_GREEN}"--- Finish Installing $program_name ---${RESET}"
+      echo -e ${BOLD_GREEN}"--- Finished Installing $program_name ---${RESET}"
     fi
   done
   printGithubMessage
