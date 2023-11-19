@@ -25,7 +25,7 @@ It's here to help new students begin their journey or to provide moral support a
     git clone https://github.com/Jalevesq/42Initializer
     ```
 
-2. Navigate to the toolkit directory.
+2. Navigate to the 42Initializer directory.
 
     ```bash
     cd 42Initializer
