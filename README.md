@@ -17,7 +17,7 @@ It's here to help new students begin their journey or to provide moral support a
 
 - **[Cleaner_42](https://github.com/ombhd/Cleaner_42)**
 
-- **[NCDU] (CCleaner Alternative, Need to uncomment to use)**
+- **[NCDU](https://dev.yorhel.nl/ncdu)** (Alternative to CCleaner, need to uncomment to use)
 
 ## Getting Started
 
