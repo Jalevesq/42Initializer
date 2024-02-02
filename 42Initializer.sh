@@ -38,22 +38,6 @@ function create_ssh_key() {
 
 }
 
-# Function to install Firefox - I installed it manually and now i cant delete it on 42 Mac -> cant test it -> rip
-: '
-function install_firefox() {
-
-  echo -e "${BOLD_CYAN}Installing Firefox...${RESET}"
-  brew install --cask firefox
-
-  if ask_install "Improved Intra"; then
-    extension_url="https://github.com/FreekBes/improved_intra/releases/latest/download/firefox.xpi"
-    install_dir="$HOME/.mozilla/firefox/*.default/extensions"   # use shouldnt have others profle, right?
-    curl -L -o "$install_dir/improved_intra.xpi" "$extension_url"
-  fi
-
-  }
-'
-
 # Function to install ohmyzsh
 function install_ohmyzsh() {
   echo -e "${BOLD_CYAN}Installing ohmyzsh...${RESET}"
@@ -246,8 +230,8 @@ function install_all() {
     install_valgrind
     add_vscode_alias
     install_ccleaner42
-    #install_ncdu           # CCleaner alternative
-    create_ssh_key          # Added Auto copy to clipboard. this is why ive moved down there, to avoid issues
+    install_ncdu           # CCleaner alternative
+    create_ssh_key         
   )
 
   for func in "${functions_to_install[@]}"; do
