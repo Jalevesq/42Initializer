@@ -27,7 +27,15 @@ RESET='\033[0m'
 
 function create_ssh_key() {
   echo -e "${BOLD_CYAN}Creating SSH Key...${RESET}"
-  ssh-keygen -t rsa
+
+  # Create the key and copy it to Clipboard, this is why ive moved the function at the end of the script
+  ssh-keygen -t rsa -f "$HOME/.ssh/id_rsa" && cat "$HOME/.ssh/id_rsa.pub" | pbcopy
+
+  # Make sure people don't miss it
+  for ((i=0; i<5; i++)); do
+    echo -e "${BOLD_CYAN} ----> SSH Key is now in your clipboard ! Paste it in your intra <---- ${RESET}"
+  done
+
 }
 
 # Function to install ohmyzsh
@@ -65,6 +73,13 @@ function install_cmake() {
   brew install cmake
 }
 
+# Function to install NCDU with brew ( i hate ccleaner )
+# it takes 10 years to install for some reason, but its quite good
+function install_ncdu() {
+  echo -e "${BOLD_CYAN}Installing NCDU with brew...${RESET}"
+  brew install ncdu
+}
+
 # Function to install glfw with brew
 function install_glfw() {
   echo -e "${BOLD_CYAN}Installing glfw with brew...${RESET}"
@@ -77,6 +92,7 @@ function install_valgrind() {
   brew tap LouisBrunner/valgrind && brew install --HEAD LouisBrunner/valgrind/valgrind
 }
 
+# CCleaner
 function install_ccleaner42() {
   git clone https://github.com/ombhd/Cleaner_42
   if [ $? -eq 0 ]; then
@@ -207,7 +223,6 @@ function pwd_is_not_home() {
 function install_all() {
 
   functions_to_install=(
-    create_ssh_key
     install_ohmyzsh
     install_homebrew
     install_cmake
@@ -215,11 +230,15 @@ function install_all() {
     install_valgrind
     add_vscode_alias
     install_ccleaner42
+    install_ncdu           # CCleaner alternative
+    create_ssh_key         
   )
+
   for func in "${functions_to_install[@]}"; do
     program_name=$(echo "$func" | tr '_' ' ')
     if ask_install "$program_name"; then
       $func
+      
       echo -e ${BOLD_GREEN}"--- Finished: ${BOLD_MAGENTA}[$program_name]${BOLD_GREEN} ---${RESET}"
     fi
   done

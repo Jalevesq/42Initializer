@@ -17,6 +17,8 @@ It's here to help new students begin their journey or to provide moral support a
 
 - **[Cleaner_42](https://github.com/ombhd/Cleaner_42)**
 
+- **[NCDU](https://dev.yorhel.nl/ncdu)** (Alternative to CCleaner, need to uncomment to use)
+
 ## Getting Started
 
 1. Clone this repository to your 42 School computer.
